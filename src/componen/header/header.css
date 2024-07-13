@@ -1,0 +1,33 @@
+
+/*.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #22282A;
+    padding: 25px 80px;
+}
+.navbar , .navbar-li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+}*/
+
+.icon-dropbtn {
+    color: #fff;
+}
+
+li a {
+    padding: 0 40px;
+    color: #fff;
+}
+
+.left-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+
