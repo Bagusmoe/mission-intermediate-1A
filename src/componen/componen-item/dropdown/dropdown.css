@@ -1,0 +1,32 @@
+
+
+ /*.dropdown ul {
+    color: #fff;
+    background-color: #181A1C;
+    position: absolute;
+    top: 82px;
+    right: 30px;
+    z-index: 1;
+    overflow: auto;
+    border-radius: 4px;
+    width: 156px;
+    padding: 2px 0;
+    text-align: left;
+    cursor: pointer;
+} */
+
+.dropdown li {
+    padding: 8px 12px ;
+    font-size: 14px;
+}
+
+
+.dropdown li:hover {
+    color: #3254FF;
+}
+
+/*.icon  {
+    cursor: pointer;
+    color: #fff;
+    padding: 5px;
+}*/

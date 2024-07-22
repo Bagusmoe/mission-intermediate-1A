@@ -1,4 +1,5 @@
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
+
 const ProgressBar = ({ progress }) => {
     return (
         <div className="w-[75%] bg-[#3D4142] rounded-full h-2.5">
@@ -11,4 +12,7 @@ ProgressBar.propTypes = {
     progress: PropTypes.number.isRequired,
 };
 
+ProgressBar.defaultProps = {
+    progress: 0,
+};
 export default ProgressBar;

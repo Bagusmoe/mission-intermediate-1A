@@ -2,8 +2,8 @@ import PropTypes from 'prop-types'
 
 const Title = ({text}) => {
     return (
-        <div className="text-left text-[32px]">
-            <h1>{text}</h1>
+        <div className="relative text-left text-[32px] sm:text-[20px]">
+            <h1 className="relative">{text}</h1>
         </div>
     )
 }
