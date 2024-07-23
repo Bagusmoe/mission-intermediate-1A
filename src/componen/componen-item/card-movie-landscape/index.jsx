@@ -7,8 +7,8 @@ import ImgLandscape from '../imgLandscape'
 const CardMovieLandscape = ({props}) => {
     
     return (
-        <div className="group relative">
-            <ImgLandscape img={props.img}className="group-hover:hidden"/> 
+        <div className="group relative shrink-0">
+            <ImgLandscape img={props.img} /> 
             <NewEpisode props={props} />
             <div className="absolute bottom-0 left-0 right-0 group-hover:hidden  ">
                     <div className="flex justify-between items-center pb-4 px-4">

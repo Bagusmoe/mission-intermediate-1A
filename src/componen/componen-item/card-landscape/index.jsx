@@ -6,7 +6,7 @@ const CardLandscape = ({props , progress}) => {
     return (
         <div className="group relative shrink-0">
             {/* <div className='gr'> */}
-            <CardMovieLandscape props={props} className='min-lg:group-hover:hidden'/>
+            <CardMovieLandscape props={props} className='relative'/>
             <CardDesc1 props={props} progress={progress} className="sm:hidden md:hidden"/>
             {/* </div> */}
         </div>

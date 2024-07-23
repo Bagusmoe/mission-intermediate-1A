@@ -8,7 +8,7 @@ const HeaderLogin = () => {
         <div className='flex justify-between items-center bg-[#181A1C] w-screen'>
             {/*navbar*/}
             <Navbar />
-            <div className="flex justify-between items-center mr-20 gap-2 ">
+            <div className="flex justify-between items-center mr-20 md:mr-5">
                 <img src={login} alt=""className='avatar'/>
                 {/*dropdown*/}
                 <DropdownLogin />

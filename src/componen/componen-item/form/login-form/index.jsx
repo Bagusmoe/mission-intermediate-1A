@@ -25,7 +25,7 @@ const btnGoogle = {
 
 const LoginForm = () => {
     return (
-        <div className=" bg-login h-full bg-fixed bg-cover bg-no-repeat no-scrollbar flex justify-center items-center py-40 text-[#9D9EA1] sm:w-[306px] sm:p-6 ">
+        <div className=" bg-login w-screen h-full bg-fixed bg-cover bg-center bg-no-repeat no-scrollbar flex justify-center items-center py-40 text-[#9D9EA1] sm:p-6 ">
         <div className="flex flex-col gap-[37px] bg-[#181A1C] bg-opacity-80 rounded-2xl w-[529px] m-auto p-10 sm:p-6 sm:gap-5">
             <LogoImg  />
             <div className="text-white">

@@ -33,6 +33,7 @@ import Movie31 from "../../movie-list/movie-landscape/movie-31";
 import Movie32 from "../../movie-list/movie-landscape/movie-32";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import Title from '../tittle';
 
 const MovieSliderLandscape = () => {
     const scrollRef = useRef(null);
@@ -54,24 +55,27 @@ const MovieSliderLandscape = () => {
     };
 
     return (
-        <div className="relative pt-8 sm:pt-5 sm:px-0">
-            <div className="flex justify-between items-center absolute top-1/2  text-xl -left-[22px] -right-[22px] sm:hidden">
-                <FontAwesomeIcon 
-                    icon={faArrowLeft} 
-                    className="z-50 h-[24px] w-[24px] text-white rounded-full border p-[10px] border-[#3A3541] bg-[#2F3334] cursor-pointer"
-                    onClick={scrollLeft}
-                />
-                <FontAwesomeIcon 
-                    icon={faArrowRight} 
-                    className="z-50 h-[24px] w-[24px] text-white rounded-full border p-[10px] border-[#3A3541] bg-[#2F3334] cursor-pointer"
-                    onClick={scrollRight}
-                />
-            </div> 
-            <div className="overflow-x-hidden sm:overflow-hidden px-0">
-                <div 
-                    className="w-screen flex flex-nowrap justify-between items-center overflow-x-scroll gap-4 px-0" 
-                    ref={scrollRef}
-                >
+        <div className="relative pt-0 sm:pt-5 sm:px-0 z-20 h-full">
+             <Title text="Melanjutkan Tonton Film" className="pb-5" />
+        <div className="flex justify-between items-center absolute top-1/2  text-xl -left-[22px] -right-[22px]
+                        sm:hidden md:hidden">
+            <FontAwesomeIcon 
+                icon={faArrowLeft} 
+                className="z-[999] h-[24px] w-[24px] text-white rounded-full border p-[10px] border-[#3A3541] bg-[#2F3334] cursor-pointer"
+                onClick={scrollLeft}
+            />
+            <FontAwesomeIcon 
+                icon={faArrowRight} 
+                className="z-[999] h-[24px] w-[24px] text-white rounded-full border p-[10px] border-[#3A3541] bg-[#2F3334] cursor-pointer"
+                onClick={scrollRight}
+            />
+        </div> 
+        <div className="overflow-hidden overscroll-y-none sm:p-0
+                        sm:overflow-visible z-30">
+            <div 
+                className=" flex flex-nowrap justify-between items-center overflow-x-scroll overflow-y-clip min-lg:h-[470px] gap-4 px-0 z-40" 
+                ref={scrollRef}
+            >
                     <Movie1 />
                     <Movie2 />
                     <Movie3 />

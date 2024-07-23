@@ -54,7 +54,7 @@ const MovieSliderPotrait = () => {
     };  
 
     return (
-        <div className="relative pt-8 sm:pt-5 sm:px-0 z-20 ">
+        <div className="relative pt-8 sm:pt-5 sm:px-0 z-20 h-full">
             <div className="flex justify-between items-center absolute top-1/2  text-xl -left-[22px] -right-[22px]
                             sm:hidden md:hidden">
                 <FontAwesomeIcon 
@@ -68,10 +68,10 @@ const MovieSliderPotrait = () => {
                     onClick={scrollRight}
                 />
             </div> 
-            <div className="overflow-x-hidden overflow-y-visible sm:p-0
+            <div className="overflow-hidden overscroll-y-none sm:p-0
                             sm:overflow-visible z-30">
                 <div 
-                    className="w-screen flex flex-nowrap justify-between items-center overflow-x-scroll min-lg:h-[470px] gap-4 px-0 z-40" 
+                    className=" flex flex-nowrap justify-between items-center overflow-x-scroll overflow-y-clip min-lg:h-[470px] gap-4 px-0 z-40" 
                     ref={scrollRef}
                 >
                     <Movie1 className='z-50'/>

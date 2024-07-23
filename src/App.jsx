@@ -7,7 +7,7 @@ import Main from './componen/main/index'
 const App = () => {
     
     return (
-        <div>
+        <div className="w-full">
         { /* Header */ }
         <Header />
         { /* Main */ }

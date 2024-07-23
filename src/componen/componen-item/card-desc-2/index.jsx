@@ -39,7 +39,7 @@ const CardDesc2 = ({props}) => {
     
 //     )
 // }
-        <div className='absolute w-[408px] translate-y-[-390px] translate-x-[-80px] h-[460px] group z-50'>
+        <div className='absolute w-[408px] translate-y-[-390px] translate-x-[-80px] h-[460px] group z-50 md:hidden'>
         {/* <div className='relative overflow-hidden'>
         <img src={props.landscape} className='w- h-full rounded' />
         <div className='absolute inset-0 bg-black opacity-50 group-hover:opacity-0 transition-opacity duration-300'></div>

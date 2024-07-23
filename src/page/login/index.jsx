@@ -31,11 +31,10 @@ const Login = () => {
     //        <Input props = {props1}/>
     //        <InputPswd props = {props2}/>
     //    </div>
-    <div>
-        <div >
+    
+    
             <LoginForm />
-        </div>
-    </div>
+        
     )
 }    
 export default Login
