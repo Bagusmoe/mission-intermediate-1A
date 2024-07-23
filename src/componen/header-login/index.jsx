@@ -5,7 +5,7 @@ import DropdownLogin from '../componen-item/dropdown-login'
 const HeaderLogin = () => {
 
     return (
-        <div className='flex justify-between items-center bg-[#181A1C] w-full'>
+        <div className='flex justify-between items-center bg-[#181A1C] w-screen'>
             {/*navbar*/}
             <Navbar />
             <div className="flex justify-between items-center mr-20 gap-2 ">
