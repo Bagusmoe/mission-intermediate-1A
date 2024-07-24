@@ -33,7 +33,7 @@ import Movie31 from "../../movie-list/movie-landscape/movie-31";
 import Movie32 from "../../movie-list/movie-landscape/movie-32";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import Title from '../tittle';
+// import Title from '../tittle';
 
 const MovieSliderLandscape = () => {
     const scrollRef = useRef(null);
@@ -56,7 +56,7 @@ const MovieSliderLandscape = () => {
 
     return (
         <div className="relative pt-0 sm:pt-5 sm:px-0 z-20 h-full">
-             <Title text="Melanjutkan Tonton Film" className="pb-5" />
+             {/* <Title text="Melanjutkan Tonton Film" className="pb-5" /> */}
         <div className="flex justify-between items-center absolute top-1/2  text-xl -left-[22px] -right-[22px]
                         sm:hidden md:hidden">
             <FontAwesomeIcon 
