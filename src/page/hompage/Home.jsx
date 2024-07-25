@@ -1,4 +1,3 @@
-import './App.css'
 import Main from '../../componen/main'
 import Footer from '../../componen/footer'
 import HeaderLogin from '../../componen/header-login'
